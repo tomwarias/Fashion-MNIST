@@ -26,7 +26,7 @@ This project is a comprehensive Jupyter notebook that guides the user through th
 - **Compiling the Model**: Once the model is built, it needs to be compiled. This step includes selecting the loss function suitable for the classification task, choosing an optimizer, and defining the metrics that will be used to evaluate the model's performance.
 - **Training the Model**: This step involves fitting the model to the data. The model learns to classify images by adjusting its weights through backpropagation, using the training data over a number of epochs.
 - **Evaluating the Model**: After training, the model's performance is evaluated on a test set. Metrics such as accuracy, precision, recall, and F1 score are calculated to determine how well the model performs on unseen data.
-- **Making Predictions**: Using the trained model to predict the classes of new, unseen images. For the Traffic Signs project, this means identifying the type of sign in each image. For the Fashion MNIST project, it involves classifying the type of clothing item.
+- **Making Predictions**: Using the trained model to predict the classes of new, unseen images. For the Fashion MNIST project, it involves classifying the type of clothing item.
 - **Visualizing Incorrect Predictions**:  It's helpful to visualize the cases where the model made incorrect predictions to understand its limitations and to get insights into potential improvements. This involves comparing the predicted labels with the true labels and displaying the images where they don't match.
 
 <a name="usage"></a>
